@@ -1,0 +1,105 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.hero {
+  background-color: #007bff; /* Bright blue */
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.name-box {
+  border: 4px solid white;
+  display: inline-block;
+  padding: 25px 60px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin: 0;
+  font-weight: 700;
+}
+
+
+.section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+.about {
+  background-color: #fff9f0;
+}
+
+.education {
+  background-color: #e1f0ff;
+}
+
+.skills {
+  background-color: #fff3c2;
+}
+
+.projects {
+  background-color: #e9e2ff;
+}
+
+.contact {
+  background-color: #d9f9e6;
+}
+
+
+.info-box {
+  background-color: #fff;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  text-align: center;
+  font-weight: 500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 40px 0;
+  color: #555;
+}
+
+
+
+
